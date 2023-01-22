@@ -111,6 +111,10 @@ button.cart-button {
     cursor: pointer;
 }
 
+button.cart-button:active {
+    background-color: hsl(156, 42%, 18%);
+}
+
 @media all and (max-width: 500px) {
     main {
         flex-direction: column;
